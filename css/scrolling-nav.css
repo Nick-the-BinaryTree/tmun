@@ -1,0 +1,193 @@
+body {
+    font-family: 'Cormorant Garamond', serif;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.link {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+}
+
+.intro-section {
+    text-align: center;
+    background: url('../imgs/bg1.png') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.about-section {
+    text-align: center;
+    background: #6477db;
+    box-shadow: 0px 0px 4em 1px #000 inset;
+}
+
+.services-section {
+    height: 115vh;
+    text-align: center;
+    background: #2e465e;
+}
+
+.contact-section {
+    height: 170vh;
+    text-align: center;
+    background: url('../imgs/bg2.png') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.meetings-section {
+    height: 100vh;
+    text-align: center;
+    background: #272a2d;
+}
+
+footer {
+    background: #272a2d;
+}
+
+.leftFooter {
+  float: left;
+}
+
+.rightFooter {
+  float: right;
+  padding-top: 10px;
+}
+.rightFooterItem {
+  padding-left: 4px;
+}
+
+.titleText {
+    padding-top: 2vh;
+}
+
+.secHead {
+    text-align: left;
+    font-size: 8vmin;
+    padding-bottom: 4vh;
+}
+
+.secText {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 1.75em;
+}
+
+.meetHead {
+    font-size: 8vmin;
+}
+
+.meetText {
+    font-size: 1.75em;
+}
+
+.location {
+    margin-top: 4vmax;
+    font-size: 4vh;
+}
+
+.glyphicon {
+    font-size: 2em;
+    margin-top: 5vh;
+}
+
+.down-arrow {
+    animation: grow 1.8s linear infinite alternate;
+    text-shadow: -1px -1px 15px #fff, 1px -1px 15px #fff;
+}
+
+.UNLogo {
+    height: 20vmin;
+    width: auto;
+    margin-bottom: 2vh;
+}
+
+.silhouette {
+    height: 22vmax;
+    width: auto;
+}
+
+#uconn {
+    font-style: italic;
+    font-size: 6vmin;
+}
+
+#travelMUN {
+    font-size: 13vmin;
+}
+
+#campaignTrail {
+    padding-bottom: 3vh;
+    font-family: 'Diplomata SC', cursive;
+    font-size: 5.5vmin;
+}
+
+@keyframes grow {
+    to {margin-top: 20px;}
+}
+
+@media only screen and (max-width: 1200px) {
+    .silhouette {
+        height: 18vmax;
+        width: auto;
+        padding-bottom: 3vh;
+    }
+}
+
+@media only screen and (max-width: 600px), screen and (max-height: 700px) {
+
+    p, .secText, .meetText {
+        font-size: 4vmin;
+    }
+
+    section {
+        width: 100%;
+        height: 100vh;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+
+    .services-section {
+        font-size: 3vmin;
+        height: 125vh;
+    }
+
+    .location {
+        margin-top: 4vmax;
+        font-size: 4vmax;
+    }
+
+    .UNLogo {
+        height: 15vmin;
+        width: auto;
+        float: right;
+        margin-right: 5vw;
+    }
+
+}
+
+@media only screen and (max-height: 400px) {
+    .silhouette {
+        display: none;
+    }
+
+    .contact-section {
+        height: 120vh;
+    }
+}
